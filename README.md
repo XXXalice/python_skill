@@ -2,7 +2,7 @@
 pythonの小技・テク
 
 ## 競プロ関連
-fast_input.py
+[これ](./fast_input.py)
 
 * 標準入力のイロハ
 
