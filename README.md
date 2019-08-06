@@ -43,7 +43,7 @@ pythonの小技・テク
   ひなんじょ = '.'
   shutil.copy(れーがい, ひなんじょ)
   runaway = os.path.join(ひなんじょ, れーがい.split('/')[-1])
-  try:
+  try:![os_path_join](/Users/umemiya/Desktop/python_skill/src/os_path_join.png)
     shutil.rmtree(path=ぱす)
     os.makedirs(ぱす)
     shutil.copy(runaway, ぱす)
@@ -66,4 +66,14 @@ pythonの小技・テク
     
 
   もっと安全でスマートな書き方があるかも
+
+
+
+### パス関連
+
+* os.path.join()
+
+空stringを突っ込むと無視される　これが意外と役に立つ
+
+![os_path_join](/Users/umemiya/Desktop/python_skill/src/os_path_join.png)
 
