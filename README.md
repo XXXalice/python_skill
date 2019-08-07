@@ -75,5 +75,5 @@ pythonの小技・テク
 
 空stringを突っ込むと無視される　これが意外と役に立つ
 
-![os_path_join](/Users/umemiya/Desktop/python_skill/src/os_path_join.png)
+![os_path_join](./src/os_path_join.png)
 
