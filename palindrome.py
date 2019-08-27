@@ -4,11 +4,4 @@ def palindrome(text):
     harfs = text[int(len(text)/2)+odd_switch:]
     judge = True if harff == ''.join(harfs[::-1]) else False
     return judge
-
-def main():
-    text = input()
-    result = 'palindrome!!' if palindrome(text=text) else 'not palindrome...'
-    print(result)
-    
-if __name__ == '__main__':
-    main()
+  
